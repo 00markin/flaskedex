@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <title>Pokédex do tio Wesley</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <!-- imagem pokemon -->
+        <img scr="#" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form" id="form">
+            <input type="search" class="input__search" placeholder="Name or Number" required />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Anterior &lt; </button>
+            <button class="button btn-next">&gt; próximo </button>
+
+        </div>
+        <img src="{{ url_for('static', filename='img/pokedexm.png') }}" alt="Pokedex">
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
