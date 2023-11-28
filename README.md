@@ -132,7 +132,3 @@ To start the development server and access your application, run the `app.py` fi
 
 This project is a web application that simulates a Pokedex, a device from the Pokémon universe for cataloging and providing information on the various Pokémon species. The PokeAPI is used to fetch data and present it interactively to the user.
 ```
-
-Este script Markdown oferece uma visão geral sobre como
-
- começar com Flask e dá uma breve introdução ao projeto da Pokedex tanto em português quanto em inglês. É um ponto de partida ideal para um arquivo README de um repositório de projeto.
